@@ -264,3 +264,8 @@ HandleLidSwitch=suspend
 
 
 ## ***** Still investigating *****
+
+```sh
+upower -i $(upower -e)
+```
+This lists all power devices managed by upower (like battery, AC adapter, keyboard, mouse, etc.).
